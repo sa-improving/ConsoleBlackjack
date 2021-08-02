@@ -25,7 +25,7 @@ namespace Blackjack
                 if (!int.TryParse(Console.ReadLine(), out playerBet))
                 {
                     Console.WriteLine("Please enter a proper amount of chips!");
-                    break;
+                    continue;
                 }
                 if(playerBet > playerChips)
                 {
